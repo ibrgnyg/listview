@@ -1,0 +1,13 @@
+C:\Users\ibr günay\source\repos\listview\listview\bin\Debug\netstandard2.0\listview.deps.json
+C:\Users\ibr günay\source\repos\listview\listview\bin\Debug\netstandard2.0\listview.dll
+C:\Users\ibr günay\source\repos\listview\listview\bin\Debug\netstandard2.0\listview.pdb
+C:\Users\ibr günay\source\repos\listview\listview\obj\Debug\netstandard2.0\listview.csprojAssemblyReference.cache
+C:\Users\ibr günay\source\repos\listview\listview\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ibr günay\source\repos\listview\listview\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ibr günay\source\repos\listview\listview\obj\Debug\netstandard2.0\listview.csproj.CoreCompileInputs.cache
+C:\Users\ibr günay\source\repos\listview\listview\obj\Debug\netstandard2.0\listview.AssemblyInfoInputs.cache
+C:\Users\ibr günay\source\repos\listview\listview\obj\Debug\netstandard2.0\listview.AssemblyInfo.cs
+C:\Users\ibr günay\source\repos\listview\listview\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ibr günay\source\repos\listview\listview\obj\Debug\netstandard2.0\listview.dll
+C:\Users\ibr günay\source\repos\listview\listview\obj\Debug\netstandard2.0\listview.pdb
+C:\Users\ibr günay\source\repos\listview\listview\obj\Debug\netstandard2.0\ListViewPage1.xaml.g.cs

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="listview.ListViewPage1">
+    <ListView x:Name="productlist" HasUnevenRows="True" BackgroundColor="#828588">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell >
+
+
+                    <StackLayout>
+                        <Frame  HeightRequest="170" Margin="10"  HasShadow="True" CornerRadius="1" BackgroundColor="White">
+                            <Grid >
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="2*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Label
+                                                Grid.Column="0"
+                                                Grid.Row="0"
+                                                Text="{Binding ProductName}"
+                                                FontAttributes="Bold">
+                                </Label>
+                                <Image
+                                                HeightRequest="90"
+                                                Grid.Row="0"
+                                                Grid.Column="1"
+                                                Source="{Binding Image}"
+                                                HorizontalOptions="Start"
+                                                VerticalOptions="Start">
+                                </Image>
+                                <Label
+                                                Grid.Row="1"
+                                                Grid.Column="0"
+                                                Text="{Binding Desctiption}"
+                                                FontAttributes="Bold"
+                                                FontSize="Small">
+                                </Label>
+                                <Label
+                                      Grid.Row="1"
+                                                Grid.Column="0"
+                                                Text="{Binding Price}"  Margin="0,0,10,0" HorizontalOptions="End" FontFamily="Bold">
+                                
+                                </Label>
+                                <Label
+                                      Grid.Row="1"
+                                                Grid.Column="0"
+                                                Text="₺" HorizontalOptions="End" Margin="65,-1,0,0" FontFamily="Bold">
+
+                                </Label>
+
+                            </Grid>
+                        </Frame>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+
+    </ListView>
+</ContentPage>
